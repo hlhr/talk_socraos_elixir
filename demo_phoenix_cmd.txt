@@ -1,0 +1,5 @@
+mix phx.new demo_phoenix
+mix ecto.create
+mix phx.gen.html Meetups Event events name:string description:string
+mix ecto.migrate
+mix phx.server
